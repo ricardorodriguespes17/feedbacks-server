@@ -8,7 +8,6 @@ export class PrismaFeedbacksRepository implements FeedbackRepository {
         type,
         comment,
         screenshot,
-        createdAt: new Date(),
       },
     })
   }
